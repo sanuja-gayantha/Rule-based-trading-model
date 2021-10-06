@@ -137,17 +137,6 @@ class TradingModel:
 
 
     def findTrends(self):
-        """
-        Finds local extremas & identifies trends using them
-            DataFrame self.df
-                Contains 'OHLC' candlestick data. 
-            int n 
-                the range surrounding the minima/maxima
-            float distance factor 
-                how far away does a point need to be to a 
-                trend in order to be regarded as a validation
-        """
-
 
         # store all the trends information here
         trends = []
